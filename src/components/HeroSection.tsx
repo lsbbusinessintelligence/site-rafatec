@@ -14,7 +14,7 @@ const trackWhatsApp = (label: string) => {
 };
 
 const HeroSection = () => (
-  <section className="relative overflow-hidden min-h-[90vh] flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-cyan-800">
+  <section className="relative overflow-hidden min-h-[70vh] flex items-center bg-gradient-to-br from-blue-900 via-blue-800 to-cyan-800">
     {/* Water-inspired decorative elements */}
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
       <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-cyan-300/70 to-transparent" />
@@ -26,12 +26,12 @@ const HeroSection = () => (
       </svg>
     </div>
 
-    <div className="container relative z-10 py-20 md:py-28">
+    <div className="container relative z-10 py-10 md:py-12">
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className="mb-10 flex items-center gap-4"
+        className="mb-4 flex items-center gap-4"
       >
         <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-full px-4 py-2 backdrop-blur-sm">
           <Droplets className="w-5 h-5 text-cyan-300" />
@@ -41,13 +41,13 @@ const HeroSection = () => (
         </div>
       </motion.div>
 
-      <div className="grid lg:grid-cols-2 gap-14 items-center">
+      <div className="grid lg:grid-cols-2 gap-8 items-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="inline-flex items-center gap-2 mb-6 px-4 py-1.5 rounded-full text-sm font-semibold bg-red-500/20 text-red-300 border border-red-400/30">
+          <span className="inline-flex items-center gap-2 mb-4 px-4 py-1.5 rounded-full text-sm font-semibold bg-red-500/20 text-red-300 border border-red-400/30">
             <span className="w-2 h-2 rounded-full bg-red-400 inline-block animate-pulse" />
             Emergência 24 Horas — Campinas e Região
           </span>
@@ -102,7 +102,7 @@ const HeroSection = () => (
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="flex flex-col items-center gap-6 mt-12 lg:mt-0"
+          className="flex flex-col items-center gap-4 mt-8 lg:mt-0"
         >
           <div className="relative max-w-[300px]">
             <div className="bg-white/95 backdrop-blur-sm border-2 border-cyan-400/40 rounded-xl p-4 shadow-xl relative">
