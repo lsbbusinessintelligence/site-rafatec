@@ -87,11 +87,11 @@ const ServicosSection = () => (
               className="group bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-cyan-200 overflow-hidden"
             >
               {service.image && (
-                <div className="overflow-hidden h-40">
+                <div className="overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
                       (e.target as HTMLImageElement).parentElement!.style.display = "none";
                     }}

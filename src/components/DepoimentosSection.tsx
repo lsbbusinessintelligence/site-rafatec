@@ -126,12 +126,12 @@ const DepoimentosSection = () => (
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: index * 0.08 }}
             viewport={{ once: true }}
-            className="rounded-xl overflow-hidden shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300 aspect-square"
+            className="rounded-xl overflow-hidden shadow-md border border-gray-200 hover:shadow-xl transition-shadow duration-300"
           >
             <img
               src={src}
               alt={`Trabalho realizado ${index + 1}`}
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              className="w-full h-auto object-contain hover:scale-105 transition-transform duration-500"
               onError={(e) => {
                 (e.target as HTMLImageElement).parentElement!.style.display = "none";
               }}
