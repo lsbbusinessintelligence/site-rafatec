@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,13 +12,13 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 189 94% 43%;
+    --primary: 220 80% 35%;
     --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 189 94% 43%;
+    --accent: 37 95% 55%;
     --accent-foreground: 210 40% 98%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -55,11 +57,15 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', 'Inter', sans-serif;
   }
 }
 
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
 .hero-gradient {
-  background: linear-gradient(135deg, #0c4a6e 0%, #075985 50%, #0e7490 100%);
+  background: linear-gradient(135deg, #0c1f4a 0%, #1e3a8a 50%, #1d4ed8 100%);
 }
 
 .text-gradient {
