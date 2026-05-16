@@ -31,7 +31,7 @@ const HeroSection = () => (
         <div className="flex items-center gap-3 bg-white/10 border border-white/20 rounded-full px-4 py-2 backdrop-blur-sm">
           <Flame className="w-5 h-5 text-orange-400" />
           <span className="text-orange-200 text-sm font-semibold tracking-wide">
-            RAFATEC Encanamento a Gas – GN e GLP
+            Rafatec Gás – Encanamento GN e GLP
           </span>
         </div>
       </motion.div>
@@ -50,7 +50,7 @@ const HeroSection = () => (
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white mb-6">
             Especialista em{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-amber-300">
-              Encanamento a Gas GN e GLP
+              Encanamento a Gás GN e GLP
             </span>{" "}
             em Limeira
           </h1>
@@ -116,14 +116,14 @@ const HeroSection = () => (
             <div className="relative overflow-hidden rounded-2xl bg-white ring-4 ring-orange-300/30 flex items-center justify-center" style={{ minHeight: 180 }}>
               <img
                 src="/images/rafatec/RAFATEC-LOGO.jpeg"
-                alt="RAFATEC Encanamento a Gas GN e GLP Limeira"
+                alt="Rafatec Gás - Encanamento GN e GLP Limeira"
                 className="w-full h-auto object-contain"
                 style={{ maxHeight: 220 }}
               />
             </div>
             <div className="mt-5 text-center">
-              <p className="text-gray-900 font-bold text-lg">RAFATEC</p>
-              <p className="text-blue-700 text-sm font-medium mb-3">Encanamento a Gas GN e GLP</p>
+              <p className="text-gray-900 font-bold text-lg">Rafatec Gás</p>
+              <p className="text-blue-700 text-sm font-medium mb-3">Encanamento GN e GLP – Limeira SP</p>
               <div className="flex justify-center gap-1 mb-2">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />

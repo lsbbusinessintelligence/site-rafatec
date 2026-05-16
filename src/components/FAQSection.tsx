@@ -5,27 +5,27 @@ import { useState } from "react";
 const faqs = [
   {
     question: "Como saber se o meu fogao aceita gas encanado (GN)?",
-    answer: "A maioria dos fogoes sai de fabrica configurada para GLP (gas de botijao). Para usar gas natural encanado (GN), e necessario fazer a conversao trocando os bicos injetores do aparelho. A RAFATEC realiza essa conversao com seguranca e emite laudo tecnico de conformidade. Consulte-nos antes de qualquer alteracao.",
+    answer: "A maioria dos fogoes sai de fabrica configurada para GLP (gas de botijao). Para usar gas natural encanado (GN), e necessario fazer a conversao trocando os bicos injetores do aparelho. A Rafatec Gas realiza essa conversao com seguranca e emite laudo tecnico de conformidade. Consulte-nos antes de qualquer alteracao.",
   },
   {
     question: "Qual a diferenca entre gas GN e GLP?",
-    answer: "O GN (Gas Natural) e fornecido pela Comgas via rede encanada diretamente na residencia, sem necessidade de botijao. O GLP (Gas Liquefeito de Petroleo) e o gas de botijao tradicional (P13, P45). Ambos exigem instalacoes e equipamentos especificos para cada tipo, e a RAFATEC e especialista em sistemas de GN e GLP em Limeira.",
+    answer: "O GN (Gas Natural) e fornecido pela Comgas via rede encanada diretamente na residencia, sem necessidade de botijao. O GLP (Gas Liquefeito de Petroleo) e o gas de botijao tradicional (P13, P45). Ambos exigem instalacoes e equipamentos especificos para cada tipo, e a Rafatec Gas e especialista em sistemas de GN e GLP em Limeira.",
   },
   {
     question: "O que e o teste de estanqueidade e por que e obrigatorio?",
-    answer: "O teste de estanqueidade e um procedimento tecnico que verifica se existem vazamentos em toda a rede de gas de um imovel. E obrigatorio pela norma ABNT NBR 15526 e exigido pelos bombeiros e pela Comgas antes da liberacao do fornecimento de gas. A RAFATEC realiza o teste e emite o laudo tecnico (ART) em Limeira e regiao.",
+    answer: "O teste de estanqueidade e um procedimento tecnico que verifica se existem vazamentos em toda a rede de gas de um imovel. E obrigatorio pela norma ABNT NBR 15526 e exigido pelos bombeiros e pela Comgas antes da liberacao do fornecimento de gas. A Rafatec Gas realiza o teste e emite o laudo tecnico (ART) em Limeira e regiao.",
   },
   {
     question: "Quanto tempo demora a instalacao de gas encanado em uma residencia em Limeira?",
-    answer: "O tempo varia conforme o tamanho do imovel, mas uma instalacao residencial padrao costuma ser concluida em um unico dia. A RAFATEC realiza o projeto, a execucao e emite o laudo de conformidade, tudo de forma agil e normatizada em Limeira.",
+    answer: "O tempo varia conforme o tamanho do imovel, mas uma instalacao residencial padrao costuma ser concluida em um unico dia. A Rafatec Gas realiza o projeto, a execucao e emite o laudo de conformidade, tudo de forma agil e normatizada em Limeira.",
   },
   {
     question: "E perigoso ter vazamento de gas? O que devo fazer?",
-    answer: "Sim, vazamentos de gas representam risco de explosao e intoxicacao. Se sentir cheiro de gas: (1) Desligue o registro geral de gas; (2) Nao acione interruptores eletricos; (3) Abra portas e janelas para ventilar; (4) Saia do imovel; (5) Ligue imediatamente para um tecnico especializado. A RAFATEC oferece deteccao eletronica de vazamentos e reparo imediato em Limeira.",
+    answer: "Sim, vazamentos de gas representam risco de explosao e intoxicacao. Se sentir cheiro de gas: (1) Desligue o registro geral de gas; (2) Nao acione interruptores eletricos; (3) Abra portas e janelas para ventilar; (4) Saia do imovel; (5) Ligue imediatamente para um tecnico especializado. A Rafatec Gas oferece deteccao eletronica de vazamentos e reparo imediato em Limeira.",
   },
   {
     question: "A RAFATEC emite laudo tecnico e ART para o Corpo de Bombeiros?",
-    answer: "Sim! Todos os servicos da RAFATEC sao realizados com emissao de laudo tecnico de conformidade e, quando exigido, com ART (Anotacao de Responsabilidade Tecnica). Nossa documentacao e aceita pelo Corpo de Bombeiros, Comgas e prefeituras da regiao de Limeira.",
+    answer: "Sim! Todos os servicos da Rafatec Gas sao realizados com emissao de laudo tecnico de conformidade e, quando exigido, com ART (Anotacao de Responsabilidade Tecnica). Nossa documentacao e aceita pelo Corpo de Bombeiros, Comgas e prefeituras da regiao de Limeira.",
   },
 ];
 
@@ -50,7 +50,7 @@ const FAQSection = () => {
             <span className="text-orange-500">gas em Limeira?</span>
           </h2>
           <p className="text-lg text-gray-600">
-            Respondemos as perguntas mais comuns sobre encanamento a gas GN e GLP em Limeira.
+            Respondemos as perguntas mais comuns sobre encanamento a gas GN e GLP em Limeira. A Rafatec Gas esclarece tudo.
           </p>
         </motion.div>
 

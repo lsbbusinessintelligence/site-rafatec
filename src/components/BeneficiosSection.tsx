@@ -52,7 +52,7 @@ const BeneficiosSection = () => (
         className="text-center mb-16"
       >
         <span className="inline-block mb-4 px-4 py-1.5 rounded-full text-sm font-medium bg-orange-400/15 text-orange-300 border border-orange-400/20">
-          Por que escolher a RAFATEC?
+          Por que escolher a Rafatec Gas?
         </span>
         <h2 id="diferenciais-heading" className="text-3xl md:text-4xl font-bold text-white mb-4">
           Diferenciais que garantem{" "}
@@ -61,7 +61,7 @@ const BeneficiosSection = () => (
           </span>
         </h2>
         <p className="text-lg text-blue-200/70 max-w-2xl mx-auto">
-          Lide com gas exige credibilidade absoluta. Veja por que a RAFATEC e a escolha certa em Limeira.
+          Lide com gas exige credibilidade absoluta. Veja por que a Rafatec Gas e a escolha certa em Limeira.
         </p>
       </motion.div>
 

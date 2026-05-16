@@ -52,7 +52,7 @@ const DepoimentosSection = () => (
           <span className="text-orange-500">clientes dizem</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Avaliacoes reais de clientes satisfeitos com os servicos de gas da RAFATEC em Limeira e regiao
+          Avaliacoes reais de clientes satisfeitos com os servicos de gas da Rafatec Gas em Limeira e regiao
         </p>
       </motion.div>
 

@@ -12,10 +12,10 @@ const Footer = () => (
               className="h-12 w-auto rounded-md object-contain bg-white p-1"
             />
           </div>
-          <h3 className="text-base font-bold text-orange-300 mb-2">RAFATEC Encanamento a Gas GN e GLP</h3>
+          <h3 className="text-base font-bold text-orange-300 mb-2">Rafatec Gás – Encanamento GN e GLP</h3>
           <div className="mt-1 h-1 w-16 bg-gradient-to-r from-orange-400 to-amber-400 rounded-full mb-3" />
           <p className="text-blue-200/70 leading-relaxed text-sm">
-            Especialista em instalacao, manutencao e teste de estanqueidade de redes de gas GN e GLP em Limeira e regiao. Servicos 100 normatizados com laudo tecnico.
+            Rafatec Gas: especialista em instalacao, manutencao e teste de estanqueidade de redes de gas GN e GLP em Limeira e regiao. Servicos 100 normatizados com laudo tecnico.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ const Footer = () => (
 
       <div className="border-t border-orange-800/20 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
         <p className="text-blue-300/50">
-          &copy; {new Date().getFullYear()} RAFATEC Encanamento a Gas GN e GLP - Limeira SP
+          &copy; {new Date().getFullYear()} Rafatec Gás – Encanamento GN e GLP – Limeira SP
         </p>
         <p className="text-blue-300/50">
           Developed by{" "}

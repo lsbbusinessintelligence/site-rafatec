@@ -64,7 +64,7 @@ const ServicosSection = () => (
           <span className="text-blue-700">Encanamento a Gas em Limeira</span>
         </h2>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-          Da instalacao ao laudo tecnico: solucoes completas em gas GN e GLP para residencias e comercios em Limeira e regiao.
+          Da instalacao ao laudo tecnico: solucoes completas em gas GN e GLP para residencias e comercios em Limeira. A Rafatec Gas e a escolha certa.
         </p>
       </motion.div>
 

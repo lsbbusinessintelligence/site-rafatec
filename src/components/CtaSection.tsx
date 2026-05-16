@@ -42,7 +42,7 @@ const CtaSection = () => {
           </h2>
           <p className="text-lg md:text-xl text-blue-100/80 mb-4 max-w-3xl mx-auto leading-relaxed">
             Fale agora com a{" "}
-            <span className="font-bold text-orange-300">RAFATEC, especialista em gas GN e GLP em Limeira.</span>{" "}
+            <span className="font-bold text-orange-300">Rafatec Gas, especialista em gas GN e GLP em Limeira.</span>{" "}
             Orcamento rapido, servico normatizado e laudo tecnico garantido.
           </p>
           <p className="text-blue-200/60 text-sm mb-10">
@@ -60,7 +60,7 @@ const CtaSection = () => {
               className="inline-flex items-center gap-3 px-10 py-5 rounded-xl bg-green-500 text-white font-bold text-lg hover:bg-green-400 transition-all duration-200 shadow-2xl shadow-green-500/40"
             >
               <MessageCircle className="w-6 h-6" />
-              Falar com a RAFATEC Agora
+              Falar com a Rafatec Gas Agora
             </motion.a>
 
             <a

@@ -22,14 +22,14 @@ const TopSectionsNav = () => (
           href="#home"
           className="shrink-0 inline-flex items-center gap-2 px-3 py-1.5 rounded-sm"
           style={{ border: "1px solid hsl(220 40% 22%)" }}
-          aria-label="RAFATEC - Ir para o topo"
+          aria-label="Rafatec Gás - Ir para o topo"
         >
           <img
             src="/images/rafatec/RAFATEC-LOGO.jpeg"
             alt="RAFATEC Encanamento a Gás Logo"
             className="h-7 w-auto rounded-sm object-contain"
           />
-          <span className="font-bold text-sm" style={{ color: "hsl(37 95% 60%)" }}>RAFATEC</span>
+          <span className="font-bold text-sm" style={{ color: "hsl(37 95% 60%)" }}>Rafatec Gás</span>
         </a>
 
         {/* Nav items */}
